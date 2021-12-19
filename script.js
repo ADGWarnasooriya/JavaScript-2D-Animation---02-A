@@ -3,6 +3,7 @@ function start() {
     d.className = "d";
 
     var x = Math.random() * 1000;
+    Math.floor(x);
     d.style.marginLeft = 500 + "px";
 
     var b = document.getElementById("b");
