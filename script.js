@@ -2,8 +2,8 @@ function start() {
     var d = document.createElement("div");
     d.className = "d";
 
-    var x = Math.random() * 1000;
-    Math.floor(x);
+    var x1 = Math.random() * 1000;
+    var x2 = Math.floor(x1);
     d.style.marginLeft = 500 + "px";
 
     var b = document.getElementById("b");
