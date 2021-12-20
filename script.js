@@ -12,3 +12,8 @@ function start() {
     var b = document.getElementById("b");
     b.appendChild(d);
 }
+
+function boxAnimation() {
+    boxmarginLeft = boxmarginLeft - 10;
+    d.style.marginLeft = boxmarginLeft + "px";
+}
