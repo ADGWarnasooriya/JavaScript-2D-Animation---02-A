@@ -1,4 +1,5 @@
 var marginLeft = 0;
+var d;
 
 function start() {
     var d = document.createElement("div");
