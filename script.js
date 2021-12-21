@@ -12,10 +12,14 @@ function start() {
     var b = document.getElementById("b");
     b.appendChild(d);
 
-    setInterval(boxAnimation, 200);
+
 }
 
 function boxAnimation() {
     boxmarginLeft = boxmarginLeft - 10;
     d.style.marginLeft = boxmarginLeft + "px";
+}
+
+function boxAnimationStart() {
+    setInterval(boxAnimation, 200);
 }
