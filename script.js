@@ -1,5 +1,6 @@
 var boxmarginLeft = 0;
 var d;
+var boxAnimationId = 0;
 
 function start() {
     d = document.createElement("div");
