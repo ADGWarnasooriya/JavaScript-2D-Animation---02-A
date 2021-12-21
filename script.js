@@ -2,7 +2,7 @@ var boxmarginLeft = 0;
 var d;
 
 function start() {
-    var d = document.createElement("div");
+    d = document.createElement("div");
     d.className = "d";
 
     var x1 = Math.random() * 1000;
