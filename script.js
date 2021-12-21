@@ -22,5 +22,5 @@ function boxAnimation() {
 }
 
 function boxAnimationStart() {
-    setInterval(boxAnimation, 200);
+    boxAnimationId = setInterval(boxAnimation, 200);
 }
