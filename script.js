@@ -12,7 +12,7 @@ function start() {
     var b = document.getElementById("b");
     b.appendChild(d);
 
-
+    boxAnimationStart();
 }
 
 function boxAnimation() {
