@@ -11,6 +11,8 @@ function start() {
 
     var b = document.getElementById("b");
     b.appendChild(d);
+
+    setInterval(boxAnimation, 200);
 }
 
 function boxAnimation() {
