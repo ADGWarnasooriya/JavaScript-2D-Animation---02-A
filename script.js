@@ -23,4 +23,5 @@ function boxAnimation() {
 
 function boxAnimationStart() {
     boxAnimationId = setInterval(boxAnimation, 200);
+
 }
